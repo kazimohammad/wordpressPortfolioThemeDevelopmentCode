@@ -1,0 +1,50 @@
+/*
+Theme Name: Kazi Portfolio
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: Kazi Abdul Quaiyum
+Author URI: abdulquaiyum.com
+Description:  Kazi Portfolio brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 2.5
+Text Domain: kazi_portfolio
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Custom Style start*/
+
+#about_service {
+	    position: relative;
+		
+    height: 155px !important;
+}
+
+.services{
+	height: 270px !important;
+}
+.my_form {
+    background: #7bd3f8;
+    padding: 15px;
+    border: 3px solid #b2eabc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+.form-control.btn.btn-primary.btn-send-message.btn-success {
+    background: #b2eabc;
+    border-radius: 5px;
+    font-weight: 900
+}
+
+.form-control:active, .form-control:focus {
+       background: #b2eabc;
+}
+.form-control{
+	border-radius: 5px;
+}
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    height: 300px;
+}
+.colorlib-feature{
+	margin-bottom: 50px;
+}
